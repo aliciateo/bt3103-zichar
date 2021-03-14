@@ -1,0 +1,17 @@
+[debug] [2021-03-14T16:54:24.011Z] ----------------------------------------------------------------------
+[debug] [2021-03-14T16:54:24.014Z] Command:       /usr/local/bin/node /usr/local/bin/firebase use --add
+[debug] [2021-03-14T16:54:24.014Z] CLI Version:   9.6.1
+[debug] [2021-03-14T16:54:24.014Z] Platform:      darwin
+[debug] [2021-03-14T16:54:24.014Z] Node Version:  v14.15.4
+[debug] [2021-03-14T16:54:24.021Z] Time:          Mon Mar 15 2021 00:54:24 GMT+0800 (Singapore Standard Time)
+[debug] [2021-03-14T16:54:24.022Z] ----------------------------------------------------------------------
+[debug] [2021-03-14T16:54:24.022Z] 
+[debug] [2021-03-14T16:54:24.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-14T16:54:24.035Z] > authorizing via signed-in user
+[debug] [2021-03-14T16:54:24.040Z] > refreshing access token with scopes: []
+[debug] [2021-03-14T16:54:24.040Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-14T16:54:24.237Z] <<< HTTP RESPONSE 200 {"date":"Sun, 14 Mar 2021 16:54:24 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-14T16:54:24.269Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2021-03-14T16:54:25.039Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-03-14T16:54:25.039Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
